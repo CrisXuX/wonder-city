@@ -6,10 +6,17 @@
 <div class="sidebar_container">
 	<div class="sidebar">
 		<div class="sidebar_item">
-			<h2>New Website</h2>
-			<p>
+		<form action="" method="get" name="f1">
+			<h2>Datos de su Coordenada</h2>
+			<h3>Longitud:</h3>
+			<!--<input type="text" size="15" maxlength="30" value="" name="campoLongitud"><p>-->
 			
-			</p>
+			<input name="campolongitud" type="text" value="" size="15" maxlength="30">
+			
+			<h3>Latitud:</h3>
+			<input type="text" size="15" maxlength="30" value="" name="campolatitud"><p>
+			
+		</form>
 		</div><!--close sidebar_item-->
 	</div><!--close sidebar-->
 	<div class="sidebar">
